@@ -1,0 +1,171 @@
+	
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #646363;
+}
+
+h2 {
+    font-family: Cardo;
+    color: #1479A4;
+    text-transform: uppercase;
+}
+
+header {
+    height: 768px;
+}
+
+#about {
+    height: 720px;
+}
+
+#contact {
+    height: 320px;
+}
+	
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+	
+/***** HEADER *****/
+
+nav {
+    float: left;
+    padding: 30px 0px;
+    border: 0px solid ##FFFFFF;
+    background-color: #FFFFFF;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 0 120px 0 120px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #D2D6D9;
+    
+}
+
+li a:hover {
+    color: #BA7E51;
+    text-decoration: underline;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.hero-image {
+    background-image: url(../img/image-hero-crop.png);
+    background-color: #cccccc;
+    height: 662px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    clear: both;
+  }
+  
+#hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Cardo, serif; 
+    letter-spacing: 10px;
+    font-size: 18px;
+  }
+
+#hero-logo {
+    opacity: 0.6;
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 19%;
+}
+
+/***** PORTFOLIO *****/
+
+
+
+	
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 75px 0;
+}
+
+
+#about #about-me-blurb {
+    text-align: center;
+    width: 316px;
+    margin-left: 142px;
+    margin-right: 142px;
+    margin-top: 150px;
+}
+
+#about #dorothy-photo {
+    height: 558px;
+    width: 383px;
+    overflow: hidden;
+    margin-left: 108.5px;
+    margin-right: 108.5px;
+}
+
+#about img {
+    margin: 0px 0px 0px -250px;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+    padding: 50px 0;
+}
+
+#contact h2 {
+    text-align: center;
+}
+#contact p {
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    text-align: center;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 25px;
+}
